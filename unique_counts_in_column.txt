@@ -1,0 +1,230 @@
+28658    1
+52755    1
+40281    1
+34138    1
+36187    1
+        ..
+41665    1
+47810    1
+45763    1
+35524    1
+28686    1
+Name: respondent_id, Length: 26708, dtype: int64
+2.0    10743
+1.0     8158
+3.0     4523
+0.0     3199
+NaN       85
+Name: h1n1_concern, dtype: int64
+1.0    14629
+2.0     9515
+0.0     2442
+NaN      122
+Name: h1n1_knowledge, dtype: int64
+0.0    25307
+1.0     1322
+NaN       79
+Name: behavioral_antiviral_meds, dtype: int64
+1.0    19336
+0.0     7159
+NaN      213
+Name: behavioral_avoidance, dtype: int64
+0.0    24840
+1.0     1849
+NaN       19
+Name: behavioral_face_mask, dtype: int64
+1.0    22030
+0.0     4638
+NaN       40
+Name: behavioral_wash_hands, dtype: int64
+0.0    17273
+1.0     9363
+NaN       72
+Name: behavioral_large_gatherings, dtype: int64
+0.0    17647
+1.0     8979
+NaN       82
+Name: behavioral_outside_home, dtype: int64
+1.0    18174
+0.0     8406
+NaN      128
+Name: behavioral_touch_face, dtype: int64
+0.0    19082
+1.0     5466
+NaN     2160
+Name: doctor_recc_h1n1, dtype: int64
+0.0    16360
+1.0     8188
+NaN     2160
+Name: doctor_recc_seasonal, dtype: int64
+0.0    18532
+1.0     7244
+NaN      932
+Name: chronic_med_condition, dtype: int64
+0.0    23660
+1.0     2235
+NaN      813
+Name: child_under_6_months, dtype: int64
+0.0    23029
+1.0     2890
+NaN      789
+Name: health_worker, dtype: int64
+1.0    12857
+NaN    12228
+0.0     1623
+Name: health_insurance, dtype: int64
+4.0    11734
+5.0     7065
+3.0     4790
+2.0     1800
+1.0      921
+NaN      398
+Name: opinion_h1n1_vacc_effective, dtype: int64
+2.0    9942
+1.0    8207
+4.0    5265
+5.0    1684
+3.0    1230
+NaN     380
+Name: opinion_h1n1_risk, dtype: int64
+2.0    9177
+1.0    8935
+4.0    5910
+5.0    2150
+NaN     375
+3.0     161
+Name: opinion_h1n1_sick_from_vacc, dtype: int64
+4.0    11502
+5.0     9997
+2.0     2284
+3.0     1321
+1.0     1152
+NaN      452
+Name: opinion_seas_vacc_effective, dtype: int64
+2.0    9072
+4.0    7609
+1.0    5939
+5.0    2853
+3.0     736
+NaN     499
+Name: opinion_seas_risk, dtype: int64
+1.0    11577
+2.0     7789
+4.0     4947
+5.0     1782
+NaN      521
+3.0       92
+Name: opinion_seas_sick_from_vacc, dtype: int64
+65+ Years        6718
+55 - 64 Years    5529
+45 - 54 Years    5257
+18 - 34 Years    5234
+35 - 44 Years    3970
+Name: age_group, dtype: int64
+College Graduate    10186
+Some College         7080
+12 Years             5699
+< 12 Years           2336
+NaN                  1407
+Name: education, dtype: int64
+White                21301
+Black                 2174
+Hispanic              1703
+Other or Multiple     1530
+Name: race, dtype: int64
+Female    15834
+Male      10874
+Name: sex, dtype: int64
+<= $75,000, Above Poverty    12775
+> $75,000                     6863
+NaN                           4497
+Below Poverty                 2573
+Name: income_poverty, dtype: int64
+Married        13548
+Not Married    11718
+NaN             1442
+Name: marital_status, dtype: int64
+Own     18721
+Rent     5951
+NaN      2036
+Name: rent_or_own, dtype: int64
+Employed              13632
+Not in Labor Force    10092
+Unemployed             1513
+NaN                    1471
+Name: employment_status, dtype: int64
+lzgpxyit    4363
+fpwskwrf    3241
+qufhixun    3064
+oxchjgsf    2987
+bhuqouqj    2867
+kbazzjca    2844
+mlyzmhmf    2183
+lrircsnp    2022
+atmpeygn    1986
+dqpwygqj    1151
+Name: hhs_geo_region, dtype: int64
+MSA, Not Principle  City    11926
+MSA, Principle City          7805
+Non-MSA                      6977
+Name: census_msa, dtype: int64
+1.0    14533
+0.0     7943
+2.0     2870
+3.0     1137
+NaN      225
+Name: household_adults, dtype: int64
+0.0    18571
+1.0     3228
+2.0     2880
+3.0     1804
+NaN      225
+Name: household_children, dtype: int64
+NaN         13275
+fcxhlnwr     2484
+wxleyezf     1805
+ldnlellj     1224
+pxcmvdjn     1078
+arjwrbjb      885
+xicduogh      847
+atmlpfrs      822
+mfikgejo      649
+vjjrobsf      567
+rucpziij      538
+xqicxuve      527
+saaquncn      338
+cfqqtusy      304
+nduyfdeo      292
+mcubkhph      262
+dotnnunm      220
+wlfvacwt      212
+haxffmxo      160
+msuufmds      132
+phxvnwax       81
+qnlwzans        6
+Name: employment_industry, dtype: int64
+NaN         13426
+xtkaffoo     1748
+mxkfnird     1561
+emcorrxb     1284
+cmhcxjea     1224
+xgwztkwe     1138
+hfxkjkmi      725
+uqqtjvyb      501
+qxajmpny      499
+xqwwgdyp      475
+kldqjyjy      446
+tfqavkke      402
+ccgxvspp      368
+oijqvulv      346
+bxpfxfdn      331
+ukymxvdu      329
+vlluhbov      325
+haliazsg      300
+rcertsgn      297
+hodpvpew      253
+dlvbwzss      245
+xzmlyyjv      216
+dcjcmpih      161
+pvmttkik      108
+Name: employment_occupation, dtype: int64
