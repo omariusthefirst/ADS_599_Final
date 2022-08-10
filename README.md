@@ -2,7 +2,7 @@
 
 ## Problem description
 Our goal is to predict how likely individuals are to receive their H1N1
-and seasonal flu vaccines. Specifically, you'll be predicting two 
+and seasonal flu vaccines. Specifically, we predicted two 
 probabilities: one for h1n1_vaccine and one for seasonal_vaccine.
 
 Each row in the dataset represents one person who responded to the 
@@ -12,7 +12,7 @@ National 2009 H1N1 Flu Survey.
 ## Performance metric
 Performance will be evaluated according to the area under the receiver
 operating characteristic curve (ROC AUC) for each of the two target 
-variables. The mean of these two scores will be the overall score. A 
+variables. The mean of the f1-scores will be the overall score. A 
 higher value indicates stronger performance.
 
 In Python, you can calculate this using sklearn.metrics.roc_auc_score
