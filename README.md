@@ -47,7 +47,7 @@ The values below are the performance of the models on the validation data sets.
 | Random Forest      | 0.801 |0.801     | 0.801|
 
 ### Data Flow Chart
-![Data Flow](Miscellaneous/flow.jpg)
+![Data Flow](Miscellaneous/flow.JPG)
 
 ## Labels in the dataset
 
