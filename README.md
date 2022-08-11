@@ -24,7 +24,7 @@ In Python, you can calculate this using sklearn.metrics.roc_auc_score
 for this multilabel setup with the default average="macro" parameter.
 
 ### ROC AUC Curves Graphs
-![This is an image](\Miscellaneous\ROC.png)
+![ROC Graphs](Miscellaneous\ROC.png)
 
 ### Scores Table for Top Models
 The values below are the performance of the models on the validation data sets.
