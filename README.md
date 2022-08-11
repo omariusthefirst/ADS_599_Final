@@ -2,7 +2,7 @@
 
 ## Outline
 ### 
-### [ROC Curves](#roc-auc-graphs
+### [ROC Curves](#roc-auc-graphs)
 ### [Tables](#scores-table-for-top-models)
 ### [Independant Variables](#labels/independant-variables-in-the-dataset)
 ## Problem Description
