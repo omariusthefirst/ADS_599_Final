@@ -1,6 +1,11 @@
 # Flu Shot Learning: Predict H1N1 and Seasonal Flu Vaccines
 
-## Problem description
+## Outline
+### 
+### 
+### [Scores Table for Top Models](#id_tables)
+### 
+## 1.0 Problem description
 Our goal is to predict how likely individuals are to receive their H1N1
 and seasonal flu vaccines. Specifically, we predicted two 
 probabilities: one for h1n1_vaccine and one for seasonal_vaccine.
@@ -9,7 +14,7 @@ Each row in the dataset represents one person who responded to the
 National 2009 H1N1 Flu Survey.
 
 
-## Performance metric
+## 2.0 Performance metric
 Performance will be evaluated according to the area under the receiver
 operating characteristic curve (ROC AUC) for each of the two target 
 variables. The mean of the f1-scores will be the overall score. A 
@@ -18,9 +23,27 @@ higher value indicates stronger performance.
 In Python, you can calculate this using sklearn.metrics.roc_auc_score
 for this multilabel setup with the default average="macro" parameter.
 
+### 2.1 ROC AUC Curves Graphs
+
+### 2.2 Scores Table for Top Models  {#id_tables}
+The values below are the performance of the models on the validation data sets.
+
+| H1N1 Models      | F1-Score | Accuracy     | AUC Score|
+| :---       		 |    :----:   |          ---: |---: |
+| Gradient Boost      | 0.903       | 0.903   | 0.905
+| Adaboost   		| 0.905        | 0.905 |0.905     |
+| Random FOrest      | 0.915 |0.916     | 0.915|
+
+| Seasonal Flu Models      | F1-Score | Accuracy     | AUC Score|
+| :---       		 |    :----:   |          ---: |---: |
+| Gradient Boost      | 0.792       | 0.792   | 0.792
+| Adaboost   		| 0.799        | 0.799 |0.799     |
+| Random FOrest      | 0.801 |0.801     | 0.801|
+
+## 3.0 Labels/Independant Variables in the dataset
+
 #### For all binary variables: 0 = No; 1 = Yes.
 
-### Labels in the dataset
 **h1n1_vaccine** - Whether respondent received H1N1 flu vaccine.
 
 **seasonal_vaccine** - Whether respondent received seasonal flu vaccine.
