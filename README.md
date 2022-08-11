@@ -4,7 +4,7 @@
 ### 
 ### [ROC Curves](#roc-auc-graphs)
 ### [Tables](#scores-table-for-top-models)
-### [Independant Variables](#labels/independant-variables-in-the-dataset)
+### [Independant Variables](#labels-in-the-dataset)
 ## Problem Description
 Our goal is to predict how likely individuals are to receive their H1N1
 and seasonal flu vaccines. Specifically, we predicted two 
@@ -41,7 +41,7 @@ The values below are the performance of the models on the validation data sets.
 | Adaboost   		| 0.799        | 0.799 |0.799     |
 | Random FOrest      | 0.801 |0.801     | 0.801|
 
-## Labels/Independant Variables in the dataset
+## Labels in the dataset
 
 #### For all binary variables: 0 = No; 1 = Yes.
 
