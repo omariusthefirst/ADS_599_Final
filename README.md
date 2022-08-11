@@ -41,7 +41,7 @@ The values below are the performance of the models on the validation data sets.
 | Adaboost   		| 0.799        | 0.799 |0.799     |
 | Random FOrest      | 0.801 |0.801     | 0.801|
 
-## Labels/Independant Variables in the dataset
+## Independant Variables in the dataset
 
 #### For all binary variables: 0 = No; 1 = Yes.
 
