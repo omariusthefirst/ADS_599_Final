@@ -2,9 +2,9 @@
 
 ## Outline
 ### 
-### 
+### [ROC Curves](#roc-auc-graphs
 ### [Tables](#scores-table-for-top-models)
-### [Independant Variables](labels/independant-variables-in-the-dataset)
+### [Independant Variables](#labels/independant-variables-in-the-dataset)
 ## Problem Description
 Our goal is to predict how likely individuals are to receive their H1N1
 and seasonal flu vaccines. Specifically, we predicted two 
@@ -23,7 +23,7 @@ higher value indicates stronger performance.
 In Python, you can calculate this using sklearn.metrics.roc_auc_score
 for this multilabel setup with the default average="macro" parameter.
 
-### ROC AUC Curves Graphs
+### ROC AUC Graphs
 ![ROC Graphs](Miscellaneous/ROC.png)
 
 ### Scores Table for Top Models
@@ -41,7 +41,7 @@ The values below are the performance of the models on the validation data sets.
 | Adaboost   		| 0.799        | 0.799 |0.799     |
 | Random FOrest      | 0.801 |0.801     | 0.801|
 
-## Independant Variables in the dataset
+## Labels/Independant Variables in the dataset
 
 #### For all binary variables: 0 = No; 1 = Yes.
 
