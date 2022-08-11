@@ -4,8 +4,8 @@
 ### 
 ### 
 ### [Tables](#scores-table-for-top-models)
-### 
-## Problem description
+### [Independant Variables](labels/independant-variables-in-the-dataset)
+## Problem Description
 Our goal is to predict how likely individuals are to receive their H1N1
 and seasonal flu vaccines. Specifically, we predicted two 
 probabilities: one for h1n1_vaccine and one for seasonal_vaccine.
@@ -14,7 +14,7 @@ Each row in the dataset represents one person who responded to the
 National 2009 H1N1 Flu Survey.
 
 
-## Performance metric
+## Performance Metrics
 Performance will be evaluated according to the area under the receiver
 operating characteristic curve (ROC AUC) for each of the two target 
 variables. The mean of the f1-scores will be the overall score. A 
