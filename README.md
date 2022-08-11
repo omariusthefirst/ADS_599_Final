@@ -6,8 +6,9 @@
 ### [Models - Notebook](Code_Library_Folder/Capstone_Modeling.ipynb)
 ### [ROC Curves](#roc-auc-graphs)
 ### [Tables](#scores-table-for-top-models)
-### [Independant Variables](#labels-in-the-dataset)
+### [Independent Variables](#labels-in-the-dataset)
 ### [Full Paper](Miscellaneous/ADS_599_Capstone_Final_Paper.docx)
+### [Data Driven Competition Rules](https://www.drivendata.org/competitions/66/flu-shot-learning/page/211/)
 ## Problem Description
 Our goal is to predict how likely individuals are to receive their H1N1
 and seasonal flu vaccines. Specifically, we predicted two 
@@ -36,13 +37,13 @@ The values below are the performance of the models on the validation data sets.
 | :---       		 |    :----:   |          ---: |---: |
 | Gradient Boost      | 0.903       | 0.903   | 0.905
 | Adaboost   		| 0.905        | 0.905 |0.905     |
-| Random FOrest      | 0.915 |0.916     | 0.915|
+| Random Forest      | 0.915 |0.916     | 0.915|
 
 | Seasonal Flu Models      | F1-Score | Accuracy     | AUC Score|
 | :---       		 |    :----:   |          ---: |---: |
 | Gradient Boost      | 0.792       | 0.792   | 0.792
 | Adaboost   		| 0.799        | 0.799 |0.799     |
-| Random FOrest      | 0.801 |0.801     | 0.801|
+| Random Forest      | 0.801 |0.801     | 0.801|
 
 ## Labels in the dataset
 
