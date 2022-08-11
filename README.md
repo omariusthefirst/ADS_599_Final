@@ -25,7 +25,7 @@ for this multilabel setup with the default average="macro" parameter.
 
 ### 2.1 ROC AUC Curves Graphs
 
-### 2.2 Scores Table for Top Models
+### Scores Table for Top Models
 The values below are the performance of the models on the validation data sets.
 
 | H1N1 Models      | F1-Score | Accuracy     | AUC Score|
