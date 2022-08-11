@@ -3,7 +3,7 @@
 ## Outline
 ### 
 ### 
-### [Scores Table for Top Models]{#table_id}
+### [Scores Table for Top Models] {#table_id}
 ### 
 ## 1.0 Problem description
 Our goal is to predict how likely individuals are to receive their H1N1
