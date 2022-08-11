@@ -3,7 +3,7 @@
 ## Outline
 ### 
 ### 
-### [Scores Table for Top Models](#table_id)
+### [Scores Table for Top Models](#2.2-Scores-Table-for-Top-Models)
 ### 
 ## 1.0 Problem description
 Our goal is to predict how likely individuals are to receive their H1N1
@@ -25,7 +25,7 @@ for this multilabel setup with the default average="macro" parameter.
 
 ### 2.1 ROC AUC Curves Graphs
 
-### 2.2 Scores Table for Top Models {#table_id}
+### 2.2 Scores Table for Top Models
 The values below are the performance of the models on the validation data sets.
 
 | H1N1 Models      | F1-Score | Accuracy     | AUC Score|
