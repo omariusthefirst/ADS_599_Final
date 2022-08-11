@@ -6,6 +6,7 @@
 ### [Models - Notebook](Code_Library_Folder/Capstone_Modeling.ipynb)
 ### [ROC Curves](#roc-auc-graphs)
 ### [Tables](#scores-table-for-top-models)
+### [Flow Chart](#data-flow-chart)
 ### [Independent Variables](#labels-in-the-dataset)
 ### [Full Paper](Miscellaneous/ADS_599_Capstone_Final_Paper.docx)
 ### [Data Driven Competition Rules](https://www.drivendata.org/competitions/66/flu-shot-learning/page/211/)
@@ -44,6 +45,9 @@ The values below are the performance of the models on the validation data sets.
 | Gradient Boost      | 0.792       | 0.792   | 0.792
 | Adaboost   		| 0.799        | 0.799 |0.799     |
 | Random Forest      | 0.801 |0.801     | 0.801|
+
+### Data Flow Chart
+![ROC Graphs](Miscellaneous/flow.jpg)
 
 ## Labels in the dataset
 
