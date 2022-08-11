@@ -1,11 +1,14 @@
 # Flu Shot Learning: Predict H1N1 and Seasonal Flu Vaccines
 
 ## Outline
-### 
-### 
+### [Data Cleaning - Notebook](Code_Library_Folder/Capstone_Data_Cleaning.ipynb)
+### [Data Exploration - Notebook](Code_Library_Folder/Capstone_Data_Exploration.ipynb)
+### [Models - Notebook](Code_Library_Folder/Capstone_Modeling.ipynb)
+### [ROC Curves](#roc-auc-graphs)
 ### [Tables](#scores-table-for-top-models)
-### 
-## Problem description
+### [Independant Variables](#labels-in-the-dataset)
+### [Full Paper](Miscellaneous/ADS_599_Capstone_Final_Paper.docx)
+## Problem Description
 Our goal is to predict how likely individuals are to receive their H1N1
 and seasonal flu vaccines. Specifically, we predicted two 
 probabilities: one for h1n1_vaccine and one for seasonal_vaccine.
@@ -14,7 +17,7 @@ Each row in the dataset represents one person who responded to the
 National 2009 H1N1 Flu Survey.
 
 
-## Performance metric
+## Performance Metrics
 Performance will be evaluated according to the area under the receiver
 operating characteristic curve (ROC AUC) for each of the two target 
 variables. The mean of the f1-scores will be the overall score. A 
@@ -23,7 +26,8 @@ higher value indicates stronger performance.
 In Python, you can calculate this using sklearn.metrics.roc_auc_score
 for this multilabel setup with the default average="macro" parameter.
 
-### ROC AUC Curves Graphs
+### ROC AUC Graphs
+![ROC Graphs](Miscellaneous/ROC.png)
 
 ### Scores Table for Top Models
 The values below are the performance of the models on the validation data sets.
@@ -40,7 +44,7 @@ The values below are the performance of the models on the validation data sets.
 | Adaboost   		| 0.799        | 0.799 |0.799     |
 | Random FOrest      | 0.801 |0.801     | 0.801|
 
-## Labels/Independant Variables in the dataset
+## Labels in the dataset
 
 #### For all binary variables: 0 = No; 1 = Yes.
 
