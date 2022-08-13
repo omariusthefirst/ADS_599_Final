@@ -52,10 +52,10 @@ The values below are the performance of the models on the validation data sets.
 ![Data Flow](Images/flow.JPG)
 
 ### Bivariate Correlation Table
-![Bivaraite Correlation](Images/corr_coeff_table.JPG)
+![Bivariate Correlation](Images/corr_coeff_table.png)
 
 ### Variance Table
-![Correlation](Images/feature_table.JPG)
+![Variance](Images/feature_table.png)
 
 ## Labels in the dataset
 
