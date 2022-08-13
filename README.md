@@ -7,6 +7,8 @@
 ### [ROC Curves](#roc-auc-graphs)
 ### [Tables](#scores-table-for-top-models)
 ### [Flow Chart](#data-flow-chart)
+### [Bivariate Correlation](#bivariate-correlation-table)
+### [Variance](#variance-table)
 ### [Independent Variables](#labels-in-the-dataset)
 ### [Full Paper](Miscellaneous/ADS_599_Capstone_Final_Paper.docx)
 ### [Data Driven Competition Rules](https://www.drivendata.org/competitions/66/flu-shot-learning/page/211/)
@@ -29,7 +31,7 @@ In Python, you can calculate this using sklearn.metrics.roc_auc_score
 for this multilabel setup with the default average="macro" parameter.
 
 ### ROC AUC Graphs
-![ROC Graphs](Miscellaneous/ROC.png)
+![ROC Graphs](Images/ROC.png)
 
 ### Scores Table for Top Models
 The values below are the performance of the models on the validation data sets.
@@ -47,7 +49,13 @@ The values below are the performance of the models on the validation data sets.
 | Random Forest      | 0.801 |0.801     | 0.801|
 
 ### Data Flow Chart
-![Data Flow](Miscellaneous/flow.JPG)
+![Data Flow](Images/flow.JPG)
+
+### Bivariate Correlation Table
+![Bivaraite Correlation](Images/corr_coeff_table.JPG)
+
+### Variance Table
+![Correlation](Images/feature_table.JPG)
 
 ## Labels in the dataset
 
