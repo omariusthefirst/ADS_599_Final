@@ -10,6 +10,7 @@
 ### [Bivariate Correlation](#bivariate-correlation-table)
 ### [Variance](#variance-table)
 ### [Independent Variables](#labels-in-the-dataset)
+### [Presentation](Miscellaneous/ADS_599_Capstone_Presentation_Team2.pptx)
 ### [Full Paper](Miscellaneous/ADS_599_Capstone_Final_Paper.docx)
 ### [Data Driven Competition Rules](https://www.drivendata.org/competitions/66/flu-shot-learning/page/211/)
 ## Problem Description
